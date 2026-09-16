@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+coverage/
+playwright-report/
+test-results/
+.env*
+!.env.example
+.vercel/
+supabase/setup.sql
+*.tsbuildinfo
+next-env.d.ts
+*.log
+.DS_Store

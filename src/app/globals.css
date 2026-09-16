@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-background: #050505;
+  --color-foreground: #fafafa;
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+:root { color-scheme: dark; }
+* { box-sizing: border-box; }
+body { margin: 0; background: #050505; color: #fafafa; font-family: var(--font-geist-sans), sans-serif; }
+main { max-width: 1120px; padding: 80px 32px; margin: 0 auto; }
+h1 { font-size: clamp(40px, 6vw, 72px); letter-spacing: -2px; }
+p { color: #a3a3a3; }
