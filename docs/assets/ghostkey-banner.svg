@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">GhostKey — Secrets that disappear.</title>
+  <desc id="description">Private by design. Temporary by default. Browser-encrypted secret sharing at ghostykey.vercel.app.</desc>
+  <defs>
+    <radialGradient id="light" cx="0" cy="0" r="1" gradientTransform="translate(700 -130) rotate(90) scale(650 980)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#292929"/>
+      <stop offset="1" stop-color="#050505"/>
+    </radialGradient>
+    <linearGradient id="silver" x1="66" y1="230" x2="668" y2="340" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#737373"/>
+    </linearGradient>
+    <linearGradient id="orbit" x1="712" y1="20" x2="1230" y2="442" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#626262" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#262626" stop-opacity="0.2"/>
+    </linearGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" stroke="#fff" stroke-opacity="0.035"/>
+    </pattern>
+    <clipPath id="frame"><rect width="1280" height="440" rx="8"/></clipPath>
+  </defs>
+  <g clip-path="url(#frame)">
+    <path fill="#050505" d="M0 0h1280v440H0z"/>
+    <path fill="url(#light)" d="M0 0h1280v440H0z"/>
+    <path fill="url(#grid)" d="M0 0h1280v440H0z"/>
+    <g stroke="url(#orbit)">
+      <ellipse cx="1045" cy="198" rx="277" ry="158" transform="rotate(-35 1045 198)"/>
+      <ellipse cx="1045" cy="198" rx="324" ry="205" transform="rotate(-35 1045 198)"/>
+      <ellipse cx="1045" cy="198" rx="371" ry="252" transform="rotate(-35 1045 198)"/>
+      <ellipse cx="1045" cy="198" rx="418" ry="299" transform="rotate(-35 1045 198)"/>
+    </g>
+    <path d="M64 28v326M1216 28v326" stroke="#fff" stroke-opacity="0.055"/>
+    <g transform="translate(63 39)" stroke="#fafafa" stroke-linejoin="round">
+      <path d="M8 26V12a8 8 0 0 1 16 0v14l-4-3-4 3-4-3-4 3Z" stroke-width="1.8"/>
+      <path d="M16 10a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM16 15v5m0-2h3" stroke-width="1.6"/>
+    </g>
+    <text x="107" y="62" fill="#fafafa" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" letter-spacing="2.5">GHOSTKEY<tspan fill="#737373">.</tspan></text>
+    <text x="1216" y="60" text-anchor="end" fill="#8b8b8b" font-family="monospace" font-size="11" letter-spacing="1.5">PRIVATE BY DESIGN. TEMPORARY BY DEFAULT.</text>
+    <circle cx="70" cy="116" r="2.5" fill="#a3a3a3"/>
+    <text x="83" y="120" fill="#a3a3a3" font-family="monospace" font-size="10" letter-spacing="1.9">ENCRYPTED, END TO END</text>
+    <text x="64" y="205" fill="#fafafa" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="500" letter-spacing="-3.8">Secrets that</text>
+    <text x="64" y="284" fill="url(#silver)" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="500" letter-spacing="-4.4">disappear.</text>
+    <text x="68" y="330" fill="#a3a3a3" font-family="Arial, Helvetica, sans-serif" font-size="17">A private link. A limited lifetime. Your secret stays yours.</text>
+    <g transform="translate(932 111) scale(5.5)" stroke="#d4d4d4" stroke-linejoin="round">
+      <path d="M8 26V12a8 8 0 0 1 16 0v14l-4-3-4 3-4-3-4 3Z" stroke-width="0.65"/>
+      <path d="M16 10a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5ZM16 15v5m0-2h3" stroke-width="0.6"/>
+    </g>
+    <g stroke="#626262" stroke-width="1">
+      <path d="M922 162v-12h12m154 0h12v12M922 273v12h12m154 0h12v-12"/>
+      <path d="M744 94v10m-5-5h10m432 229v10m-5-5h10"/>
+    </g>
+    <path d="M64 370h1152" stroke="#2a2a2a"/>
+    <g font-family="monospace" font-size="10" letter-spacing="1.5">
+      <text x="68" y="409" fill="#737373">01 <tspan fill="#c5c5c5">ENCRYPT LOCALLY</tspan></text>
+      <text x="354" y="409" fill="#737373">02 <tspan fill="#c5c5c5">SHARE A LINK</tspan></text>
+      <text x="640" y="409" fill="#737373">03 <tspan fill="#c5c5c5">REVEAL ONCE</tspan></text>
+      <text x="926" y="409" fill="#737373">04 <tspan fill="#c5c5c5">LEAVE LESS BEHIND</tspan></text>
+    </g>
+  </g>
+  <rect x="0.5" y="0.5" width="1279" height="439" rx="7.5" stroke="#303030"/>
+</svg>
