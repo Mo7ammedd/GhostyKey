@@ -1,6 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { GeistSans } from "geist/font/sans";
 import { GeistMono } from "geist/font/mono";
+import { AmbientBackground } from "@/components/ambient-background";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import "./globals.css";
@@ -21,7 +22,13 @@ export const viewport: Viewport = { width: "device-width", initialScale: 1, them
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
-      <body className="font-sans antialiased"><a href="#main-content" className="skip-link">Skip to content</a><SiteHeader /><div id="main-content" className="app-content">{children}</div><SiteFooter /></body>
+      <body className="font-sans antialiased">
+        <AmbientBackground />
+        <a href="#main-content" className="skip-link">Skip to content</a>
+        <SiteHeader />
+        <div id="main-content" className="app-content">{children}</div>
+        <SiteFooter />
+      </body>
     </html>
   );
 }
