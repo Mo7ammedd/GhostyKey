@@ -10,6 +10,10 @@
 </p>
 
 <p align="center">
+  Built by <a href="https://modev.me"><strong>modev.me</strong></a>.
+</p>
+
+<p align="center">
   <a href="https://ghostykey.vercel.app"><strong>Open GhostKey ↗</strong></a>
   &nbsp; · &nbsp;
   <a href="https://ghostykey.vercel.app/security">Security model</a>
