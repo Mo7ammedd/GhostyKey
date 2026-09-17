@@ -176,6 +176,7 @@ kbd { display: inline-flex; align-items: center; justify-content: center; height
 .footer-brand > span { color: #858585; font-size: 10px; }
 .footer-links { display: flex; align-items: center; gap: 26px; color: #929292; font-size: 10px; }
 .footer-links a { display: inline-flex; align-items: center; gap: 6px; transition: color .15s; }
+.creator-link > span { color: #d4d4d4; }
 .footer-note { color: #828282; }
 .text-button, .subtle-link { display: inline-flex; align-items: center; justify-content: center; gap: 7px; background: transparent; color: #a2a2a2; font-size: 11px; font-weight: 400; padding: 3px 0; transition: color .15s; }
 .text-button:disabled { opacity: .5; }
@@ -363,7 +364,7 @@ kbd { display: inline-flex; align-items: center; justify-content: center; height
   .brand-small { font-size: 11px; }
   .brand-small > svg { width: 20px; height: 20px; }
   .footer-brand > span { font-size: 9px; padding-left: 3px; }
-  .footer-links { font-size: 9px; padding-top: 6px; }
+  .footer-links { flex-direction: column; align-items: flex-end; gap: 12px; font-size: 9px; padding-top: 6px; }
   .result-body { padding: 21px 16px 17px; }
   .result-title { gap: 11px; margin-bottom: 24px; }
   .result-title h2 { font-size: 19px; }

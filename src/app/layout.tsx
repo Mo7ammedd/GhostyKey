@@ -12,6 +12,8 @@ export const metadata: Metadata = {
   title: { default: "GhostKey — Secrets that disappear.", template: "%s — GhostKey" },
   description: "Share sensitive information through temporary, encrypted links. Encrypted in your browser. No account required. Gone on your terms.",
   applicationName: "GhostKey",
+  authors: [{ name: "modev.me", url: "https://modev.me" }],
+  creator: "modev.me",
   referrer: "no-referrer",
   robots: { index: true, follow: true },
   openGraph: { title: "GhostKey — Secrets that disappear.", description: "Private by design. Share temporary, end-to-end encrypted secret links.", type: "website", siteName: "GhostKey" },
